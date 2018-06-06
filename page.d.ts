@@ -5,7 +5,7 @@
  * 文档日期: 2018-02-07
  * 声明文件: 2018-06-04
  */
-namespace Shenjian {
+declare namespace Shenjian {
   interface Page {
     /**
      * 当前网页的链接地址。

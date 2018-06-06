@@ -5,7 +5,7 @@
  * 文档日期: 2018-03-23
  * 声明文件: 2018-06-04
  */
-namespace Shenjian {
+declare namespace Shenjian {
   interface Site {
     /**
      * 主动将url添加到待爬队列
@@ -48,7 +48,9 @@ namespace Shenjian {
       isRedirect: boolean;
       redirectLocations: string[];
       headers: { [key: string]: string };
-      request: { [key: string]: string; headers: { [key: string]: string } };
+      request: {
+        headers: { [key: string]: string };
+      } & { [key: string]: string };
     };
 
     /**

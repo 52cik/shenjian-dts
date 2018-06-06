@@ -1,4 +1,4 @@
-namespace Shenjian {
+declare namespace Shenjian {
   interface DownOptions {
     /**
      * 文件大小

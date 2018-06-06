@@ -1,4 +1,4 @@
-namespace Shenjian {
+declare namespace Shenjian {
   interface IHeaders {
     Accept: string;
     'User-Agent': string;

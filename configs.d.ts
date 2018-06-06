@@ -1,4 +1,4 @@
-namespace Shenjian {
+declare namespace Shenjian {
   interface Configs {
     /**
      * 定义爬虫爬取哪些域名下的网页，链接发现的时候会检查链接的域名，如果不是这些域名下的链接，则会被忽略。

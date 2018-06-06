@@ -1,4 +1,4 @@
-namespace Shenjian {
+declare namespace Shenjian {
   interface RequestOptions {
     /**
      * HTTP请求方式，默认 GET

@@ -5,7 +5,7 @@
  * 文档日期: 2018-01-18
  * 声明文件: 2018-06-04
  */
-namespace Shenjian {
+declare namespace Shenjian {
   interface Source {
     /**
      * 读取到的下一条数据
